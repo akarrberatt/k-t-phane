@@ -39,6 +39,9 @@ public class GirisEkrani extends JFrame {
         gbc.gridwidth = 2;
         add(btnPanel, gbc);
 
+        btnKutuphaneGiris.addActionListener(e -> new KütüphaneciArayüzü("Kütüphaneci Girişi"));
+        
+
         setVisible(true);
     }
 }
